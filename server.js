@@ -1,4 +1,6 @@
 // server.js
+var module = require("./tasks")
+
 var http = require("http");
 
 http.createServer(function(request, response) {
